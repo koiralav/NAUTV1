@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<br />
+
+<div class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider">
+        <img src="@Url.Content("~/Content/Images/HoliBanner.jpg")" alt=""/>
+        <a href=""><img src="@Url.Content("~/Content/Images/Pictures_Slider.jpg")" alt="" title="" /></a>
+        <img src="@Url.Content("~/Content/Images/nepali class.jpg")" alt="" title="" />
+        @*<iframe src="http://nepalicalendar.rat32.com/embed/index.php" style="width:990px; height:350px"></iframe>*@
+    </div>
+</div>
+<div id="htmlcaption" class="nivo-html-caption">
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+</div>
+
+<div class = "NewsFeed">
+        NAUT would like to proudly announce that, we have now been registered under Section501(c)(3) as a NON-PROFIT Organization.
+        <br />
+        Please like us on Fackbook.
+ </div>
+   
+   
+
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider();
+    });
+</script>

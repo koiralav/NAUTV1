@@ -1,0 +1,105 @@
+﻿.Content
+{
+    color:#363635;
+    font-family:Tahoma;
+    font-size:100%; 
+}
+
+.NAUTMenu
+{
+    list-style:none;
+    width:100%;
+}
+
+
+.NAUTMenu li
+{
+    float:left;
+    background:#2e2e2e;/*#454545;*/
+    padding:10px 0px 10px 0px;
+}
+
+.NAUTMenu li a
+{
+    text-decoration :none; 
+    padding:10px 30px 10px 30px;
+    cursor:pointer; 
+    font-weight:normal;
+    color:white;
+    font-family:Verdana;
+    font-size:15px;
+}
+
+.NAUTMenu li a:hover
+{
+    text-decoration :none;  
+    
+}
+
+.NAUTMenu li:hover
+{
+    background:#810000;
+    border-top:2px solid #810000;
+    border-bottom:2px solid white;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+}
+
+.NAUTMenuSelected
+{
+    list-style:none;
+    width:100%;
+}
+
+.NAUTMenuSelected li
+{
+    float:left;
+    background:#ba0000;
+    padding:10px 0px 10px 0px;
+    
+}
+
+.NAUTMenuSelected li a
+{
+    text-decoration :none; 
+    padding:10px 30px 10px 30px;
+    cursor:pointer; 
+    font-weight:bold;
+    color:white;
+}
+
+.NAUTMenuSelected li a:hover
+{
+    text-decoration :none;  
+}
+
+.NAUTMenuSelected li:hover
+{
+    background:#bfbfbf;
+}
+
+
+.Sponsors
+{
+    padding:5px 0px 0px 0px;
+    cursor:pointer;
+    opacity:.75;
+    float:left;
+}
+
+.Sponsors:hover
+{
+    opacity:1;
+}
+
+.NewsFeed
+{
+    background-color:Black;
+    border:1px solid gray;
+    padding:5px 5px 5px 5px;
+    opacity:.7;
+}
+
+
+
+
